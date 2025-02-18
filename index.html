@@ -3,54 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reporte 24 de Enero</title>
+  <title>Reporte 18 de Febrero</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <header class="logotipo">
-    <img src="assets/img/Patagonia_Cryptominer.jpeg" alt="Encabezado">
-  </header>
-  <main class="contenido">
-    <div class="bloque">
-      <h1>Cristank Via BTC</h1>
-      <img src="assets/img/viabtc cristank.png" alt="Contenido 1">
-      <img src="assets/img/Viabtc cristank2.png" alt="contenido 2">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menú</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="#cristank">CRISTANK VIA BTC</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ale">ALE VIA BTC</a></li>
+            <li class="nav-item"><a class="nav-link" href="#kaspa">KASPA CRISTANK</a></li>
+            <li class="nav-item"><a class="nav-link" href="#kaspa2">KASPA CRIS & CONY</a></li>
+            <li class="nav-item"><a class="nav-link" href="#chia">CHIA</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gpu">CANTIDAD GPU EN HOST</a></li>
+            <li class="nav-item"><a class="nav-link" href="#estadoasic">ESTADO ASIC CRISTANK 026</a></li>
+            <li class="nav-item"><a class="nav-link" href="#itinerario">MI ITINERARIO</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="logotipo">
+      <img src="assets/img/Patagonia_Cryptominer.jpeg" alt="Encabezado">
     </div>
-    <div class="bloque">
-      <h1>Ale Via BTC</h1>
+  </header>
+
+  <main class="contenido">
+    <div class="bloque" id="cristank">
+      <h1>CRISTANK VIA BTC</h1>
+      <img src="assets/img/viabtc cristank.png" alt="Contenido 1">
+      <img src="assets/img/viabtc cristank2.png" alt="Contenido 2">
+    </div>
+
+    <div class="bloque" id="ale">
+      <h1>ALE VIA BTC</h1>
       <img src="assets/img/viabtc ale.png" alt="Contenido 2">
     </div>
-    <div class="bloque">
-      <h1>Kaspa Cristank</h1>
+
+    <div class="bloque" id="kaspa">
+      <h1>KASPA CRISTANK</h1>
       <img src="assets/img/kaspa cristank.png" alt="Contenido 3">
     </div>
-    <div class="bloque">
-        <h1>
-            Kaspa Cris & Cony
-            <img src="assets/img/kaspa cris&cony.png" alt="">
-        </h1>
+
+    <div class="bloque" id="kaspa2">
+      <h1>KASPA CRIS & CONY</h1>
+      <img src="assets/img/kaspa cris&cony.png" alt="Kaspa Cris & Cony">
     </div>
-    <div class="bloque">
-        <h1> Chia Plotting
-            <h1>
-                Total Chia: 181
-            </h1>
-        <img src="assets/img/plots.png" alt="">
-        </h1>
-        </div>
-    <div class="bloque">
-      <h1>
-        Mi itinerario de hoy
-      </h1>
-      <p>
-        Hoy me dedique a configurar los computadopres Chia para que enciendan una vez vuelva la luz después de un corte de luz, hasta ahora llevo 3 computadores Chia configurados.
-        </p>
-        <p>He estado viendo un problema con dos ASIC de Ale que no me están minando, he reiniciado, he hecho limpiezas, he reseteado el internet y nada. Ahora voy a revisar el log de errores desde la ip de los ASIC.
-        <p>
-          Debido a malestares generales de cuerpo post entrenamientop, jaquecas y náuceas, he decidido descansar para retomar el aseo del Host el fin de semana, para dejar todo listo antes de irme. Haré reporte de igual manera para mostrar evidencia correspondiente.
-        </p>
-      </p>
-      </div>
+
+    <div class="bloque" id="chia">
+      <h1>CHIA</h1>
+      <h2>Total Chia: 182</h2>
+      <img src="assets/img/plots.png" alt="Chia Plotting">
+    </div>
+
+    <div class="bloque" id="gpu">
+      <h1>CANTIDAD GPU EN HOST</h1>
+      <img src="assets/img/cantidad_gpu.png" alt="Cantidad GPU">
+    </div>
+
+    <div class="bloque" id="estadoasic">
+      <h1>ESTADO ASIC CRISTANK 026</h1>
+      <img src="assets/img/estado_cristank_026.png" alt="Estado ASIC Cristank 026">
+    </div>
+
+    <div class="bloque" id="itinerario">
+      <h1>MI ITINERARIO DE HOY</h1>
+      <p>Hoy me dediqué a contar los GPU restantes en el HOST y hacer mantenimiento de los ASIC.</p>
+      <p>Uno de los ASIC (CRISTANK 026) sigue sin minar a pesar de que había empezado a minar después de la actualización del Firmware, esto debido a una falla con los ventiladores, por lo que voy a proceder a revisar cuál está fallando para reemplazarlo ya que contamos con repuestos.</p>
+    </div>
   </main>
+
+  <footer>
+    <h3 class="pie_de_pagina">Patagonia Cryptominer 2025</h3>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
